@@ -18,12 +18,12 @@ export const SharedStyles = html`
   }
 
   section {
-    padding: 24px;
+    padding: 1.5rem;
     background: var(--app-section-odd-color);
   }
 
   section > * {
-    max-width: 600px;
+    max-width: 37.5rem;
     margin-right: auto;
     margin-left: auto;
   }
@@ -33,28 +33,28 @@ export const SharedStyles = html`
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     color: var(--app-dark-text-color);
   }
 
   @media (min-width: 460px) {
     h2 {
-      font-size: 36px;
+      font-size: 2.25rem;
     }
   }
 
   .circle {
     display: block;
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     margin: 0 auto;
     text-align: center;
     border-radius: 50%;
     background: var(--app-primary-color);
     color: var(--app-light-text-color);
-    font-size: 30px;
-    line-height: 64px;
+    font-size: 1.875rem;
+    line-height: 4rem;
   }
 </style>
 `;
